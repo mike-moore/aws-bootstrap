@@ -1,6 +1,6 @@
 const { hostname } = require('os');
 const http = require('http');
-const message = 'Sup World!\n'; 
+const message = 'Sup Cloud!\n'; 
 const port = 8080; 
 const server = http.createServer((req, res) => { 
   res.statusCode = 200;
